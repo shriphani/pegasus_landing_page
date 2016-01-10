@@ -11,6 +11,12 @@ a {
 
 body {
     text-align: center;
+    width: 100%;
+}
+
+div#container {
+    width: 600px;
+    margin: 0px auto;
 }
 
 h1 {
@@ -33,6 +39,7 @@ h1 a {
 h2 {
     color: #2B2625;
     font-family: monospace;
+    margin-top: 2em;
 }
 
 h2 a {
@@ -57,11 +64,9 @@ div.container { color: #FFFFFF; }
 
 body {
     font-family: monospace;
-    font-size: 1.5em;
     line-height: 1.571em;
     color: #111111;
     text-rendering: optimizeLegibility;
-    width: 50%;
 }
 
 code {
@@ -89,6 +94,7 @@ blockquote p {
 }
 
 ul {
+    margin-left: 100px;
     text-align: left;
 }
 
@@ -136,14 +142,6 @@ p {
 
 html {
     height: 100%;
-}
-
-.footer {
-  position: absolute;
-  clear:both;
-  padding-top:20px;
-  margin-left:25.641025641025642%;
-  width:48.717948717948715%;
 }
 
 li {
@@ -199,4 +197,8 @@ div.quote {
     margin-bottom: 20px;
     margin-right: 20px;
     float: left;
+}
+
+p.footer {
+    margin-top: 3em;
 }
